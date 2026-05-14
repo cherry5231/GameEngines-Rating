@@ -1,10 +1,10 @@
-##Game Engine Information Database
+# GAME ENGINE INFORMATION DATABASE
 
 A Python-based project that stores and exports detailed information about some of the most popular modern video games, their engines, development technologies, and core programming systems used during development.
 
-##This project was created to improve Python programming skills while exploring how modern AAA games are developed behind the scenes.
+## This project was created to improve Python programming skills while exploring how modern AAA games are developed behind the scenes.
 
-##Features
+## Features
 Structured game database using nested dictionaries
 Stores:
 Game names
@@ -18,7 +18,7 @@ UTF-8 encoding support
 Handles both strings and lists dynamically using isinstance()
 Concepts Used
 
-##This project helped practice several important Python concepts:
+## This project helped practice several important Python concepts:
 
 Dictionaries
 Nested dictionaries
@@ -31,7 +31,7 @@ Multi-line strings
 Type checking with isinstance()
 Writing formatted data into text files
 
-##Example Games Included
+## Example Games Included
 God of War Ragnarök
 Marvel's Spider-Man
 Grand Theft Auto V
@@ -48,7 +48,7 @@ GameRating.txt
 
 which contains organized information about each game and its technical systems.
 
-Purpose of the Project
+## Purpose of the Project
 
 The goal of this project is to combine:
 
@@ -59,7 +59,7 @@ interest in modern game development
 
 while learning how large-scale games are built using engines, rendering systems, physics systems, AI, and graphics technologies.
 
-##Future Improvements
+## Future Improvements
 
 Possible future upgrades:
 
