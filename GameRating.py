@@ -1,0 +1,427 @@
+
+
+Gamedata = {
+    "God of War Ragnarok": {
+    "Game_name"       : "God of War Ragnarok",
+    "Engine"          : "Santa Monica Studio Engine",
+    "Release_year"    : 2022,
+    "Company"         : "Santa Monica Studio",
+    "Major Source Code" : """C++ → Core gameplay systems, rendering, AI, physics, combat
+                            C → Low-level systems and performance-critical parts
+                            Scripting languages/tools → Likely used for quests, events, animations, cinematics, and UI logic
+                            Shader languages (HLSL/GLSL-like systems) → Graphics, lighting, effects"""
+    },
+    "Marvel's Spider-Man": {
+        "Game_name"         : "Marvel's Spider-Man",
+        "Engine"            : "Insomniac Games Engine",
+        "Release_year"      : 2018,
+        "Company"           : "Insomniac Games",
+        "Major Source Code" : """C++ → gameplay systems, combat, AI, rendering
+                                 C → low-level optimization
+                                 Shader languages → lighting, reflections, ray tracing effects
+                                 Internal scripting/event systems for missions and cinematics
+                                 Major Systems
+      
+                                The web swinging itself is heavily physics-driven and required lots of math programming:
+
+                                F=ma
+
+                                The swinging system combines
+
+                                    velocity
+                                    gravity
+                                    momentum
+                                    rope constraints
+                                    collision detection"""          
+                                 
+},
+    "Marvel's Spider-Man: Miles Morales": {
+        "Game_name"          : "Marvel's Spider man Miles Morales",
+        "Engine"             : "Insomniac Games Engine",
+        "Release_year"       : 2022,
+        "Company"            : "Insomniac Games",
+        "Major Source Code"  : """C++ → gameplay systems, combat, AI, rendering
+                                 C → low-level optimization
+                                 Shader languages → lighting, reflections, ray tracing effects
+                                 Internal scripting/event systems for missions and cinematics
+                                 Major Systems
+      
+                                The web swinging itself is heavily physics-driven and required lots of math programming:
+
+                                F=ma
+
+                                The swinging system combines:
+
+                                    velocity
+                                    gravity
+                                    momentum
+                                    rope constraints
+                                    collision detection"""                           
+    },
+    "Marvel's Spider-Man 2" : {
+        "Game_name"         : "Marvel's Spider-Man 2",
+        "Engine"            : "Insomniac Games Engine",
+        "Release_year"      : 2025,
+        "Company"           : "Insomniac Games",
+        "Major Source Code" : """C++ → gameplay systems, combat, AI, rendering
+                                 C → low-level optimization
+                                 Shader languages → lighting, reflections, ray tracing effects
+                                 Internal scripting/event systems for missions and cinematics
+                                 Major Systems
+                                   Fun Fact
+
+                                    The web swinging itself is heavily physics-driven and required lots of math programming:
+
+                                    F=ma
+
+                                    The swinging system combines:
+
+                                        velocity
+                                        gravity
+                                        momentum
+                                        rope constraints
+                                        collision detection"""
+    },
+
+    "GTA":{
+        "Game_name"            :["GTA 5","GTA Definitive Edition","GTA 4"],
+        "Engine"               : "RAGE Engine",
+        "Release_year"         : 2013,
+        "Company"              : "Rockstar Games",
+        "Major Source Code"    :"""" FOR GTA 5
+                                    Main Code / Languages
+                                    C++ → gameplay, AI, rendering, physics
+                                    C → low-level systems
+                                    Lua / scripting systems (internal mission scripting)
+                                    Shader languages for graphics/VFX
+                                     FOR GTA 4
+                                    Main Code / Languages
+                                    C++ → gameplay, AI, rendering, physics
+                                    C → low-level systems
+                                    Lua / scripting systems (internal mission scripting)
+                                    Shader languages for graphics/VFX
+                                     FOR GTA Definitive Edition
+                                    C++
+                                    Main Feature - UNREAL ENGINE 4
+                                    Unreal Engine scripting/tools
+                                    Original Rockstar legacy code"""
+    },
+    "Elden Ring" : {
+        "Game_name"         : "Elden Ring",
+        "Engine"            : "FromSoftware's Proprietary Engine",
+        "Release_year"      : 2022,
+        "Company"           : "FromSoftware",
+        "Major Source Code" : """C++ → core gameplay systems, rendering, AI, physics
+                                 C → low-level systems and performance-critical code
+                                 Scripting languages/tools → likely used for quest logic, events, animations, cinematics, and UI logic
+                                 Shader languages (HLSL/GLSL-like systems) → graphics, lighting, effects"""
+    },
+    "Horizon Forbidden West" : {
+        "Game_name"         : "Horizon Forbidden West",
+        "Engine"            : "Guerrilla Games' Proprietary Engine",
+        "Release_year"      : 2022,
+        "Company"           : "Guerrilla Games",
+        "Major Source Code" : """C++ → core gameplay systems, rendering, AI, physics
+                                 C → low-level systems and performance-critical code
+                                 Scripting languages/tools → likely used for quest logic, events, animations, cinematics, and UI logic
+                                 Shader languages (HLSL/GLSL-like systems) → graphics, lighting, effects"""
+},
+    "Forza Horizon 5" : {
+        "Game_name"         : "Forza Horizon 5",
+        "Engine"            : "ForzaTech Engine",
+        "Release_year"      : 2021,
+        "Company"           : "Playground Games",
+        "Major Source Code" : """Main Programming Languages
+                                C++ → physics, rendering, AI, networking
+                                C → low-level engine systems
+                                Shader languages → reflections, lighting, weather effects
+                                Major Tech Systems
+                                Real-time car physics
+                                Dynamic weather system
+                                Open-world streaming
+                                Ray tracing support
+                                Online multiplayer networking
+                                Advanced sound simulation"""
+    },
+    "The Last of Us Part II" : {
+        "Game_name"         : "The Last of Us Part II",
+        "Engine"            : "Naughty Dog's Proprietary Engine",
+        "Release_year"      : 2020,
+        "Company"           : "Naughty Dog",
+        "Major Source Code" : """C++ → gameplay systems, rendering, AI, physics
+                                C → lower-level engine components
+                                Custom scripting systems for:
+                                cinematics
+                                events
+                                NPC behaviors
+                                animations
+                                Graphics Programming
+                                Shader programming for:
+                                realistic skin
+                                water
+                                lighting
+                                shadows
+                                vegetation
+                                facial animation
+                                Major Technical Systems-
+                                Advanced Enemy AI
+
+                                Enemies-
+
+                                    communicate with each other
+                                    search dynamically
+                                    react to sounds
+                                    flank the player
+
+                                    The AI system became famous because enemies even call each other by name."""
+    },
+    "Cyberpunk 2077" : {
+        "Game_name"         : "Cyberpunk 2077",
+        "Engine"            : "REDengine 4",
+        "Release_year"      : 2020,
+        "Company"           : "CD Projekt Red",
+        "Major Source Code" :      
+                                """REDengine 4 (custom proprietary engine)
+
+                                It was specifically designed for:
+
+                                huge open worlds
+                                RPG systems
+                                advanced graphics
+                                cinematic storytelling Core Languages,
+       
+                               Main Programming Languages / Code Used
+        
+                                C++ → gameplay systems, AI, rendering, networking, physics
+                                C → lower-level systems
+                                Custom scripting tools for:
+                                quests
+                                dialogue
+                                events
+                                NPC routines
+                                Graphics Programming
+                                Shader programming for:
+                                neon lighting
+                                reflections
+                                ray tracing
+                                volumetric fog
+                                crowd rendering
+                                Major Technical Systems
+                                Open-World Streaming
+
+                                Night City loads areas dynamically while driving at high speeds without loading screens.
+
+                                Crowd & NPC AI
+
+                                The game simulates:
+
+                                pedestrians
+                                police
+                                gangs
+                                traffic systems
+                                combat AI
+                                Ray Tracing Technology
+
+                                Cyberpunk became one of the showcase games for RTX graphics cards because of:
+
+                                real-time reflections
+                                global illumination
+                                realistic shadows
+                                Vehicle & Physics Systems
+
+                                Cars and combat interactions rely heavily on physics calculations:
+
+                                F=ma
+
+                                The engine continuously calculates:
+
+                                acceleration
+                                collisions
+                                momentum
+                                suspension movement
+                                bullet impacts"""
+   },
+    "Forza Horizon 6" : {
+        "Game_name"         : "Forza Horizon 6",
+        "Engine"            : "ForzaTech Engine",
+        "Release_year"      : 2026,
+        "Company"           : "Playground Games",
+        "Major Source Code" : """Main Programming Languages
+                                C++ → physics, rendering, AI, networking
+                                C → low-level engine systems
+                                Shader languages → reflections, lighting, weather effects
+                                Major Tech Systems
+                                Real-time car physics
+                                Dynamic weather system
+                                Open-world streaming
+                                Ray tracing support
+                                Online multiplayer networking
+                                Advanced sound simulation"""
+    },
+    
+    "Resident Evil Requiem" : {
+        "Game_name"         : "Resident Evil Requiem",
+        "Engine"            : "RE Engine",
+        "Release_year"      : 2026,
+        "Company"           : "Capcom",
+        "Major Source Code" : """Core Languages
+                                C++ → gameplay systems, rendering, AI, physics
+                                C → low-level engine systems
+                                Custom scripting systems for:
+                                horror events
+                                enemy behavior
+                                cinematics
+                                puzzles
+                                quests
+                                Graphics Tech
+
+                                The RE Engine uses advanced shader programming for:
+
+                                realistic skin rendering
+                                dynamic shadows
+                                volumetric fog
+                                gore effects
+                                ray tracing
+                                cinematic lighting
+                                Major Technical Systems
+                                RE ENGINE
+
+                                Capcom’s RE Engine is famous for:
+
+                                extremely optimized performance
+                                photorealistic graphics
+                                smooth animation systems
+                                fast loading
+                                realistic facial detail
+
+                                It was also used in:
+
+                                Resident Evil 7: Biohazard
+                                Resident Evil Village
+                                Resident Evil 4
+                                Physics & Gameplay
+
+                                Combat and movement rely heavily on physics calculations:
+
+                                F=ma
+
+                                used for:
+
+                                recoil
+                                enemy knockback
+                                destruction
+                                ragdoll physics
+                                movement
+                                Visual Features
+
+                                According to Capcom, the game pushes:
+
+                                photorealistic characters
+                                detailed eye rendering
+                                realistic sweat/skin textures
+                                dynamic first-person ↔ third-person switching
+                                Fun Fact
+
+                                Many developers and players praise the RE Engine because it achieves high-end graphics while still running efficiently compared to some heavier modern engines."""
+                                        
+    },
+    "Asseto Corsa": {
+        "Game_name"         : "Asseto Corsa",
+        "Engine"            : "Unreal Engine 4",
+        "Release_year"      : 2014,
+        "Company"           : "Kunos Simulazioni",
+        "Major Source Code" : """C++ → core gameplay systems, rendering, physics
+                                 C → low-level engine systems
+                                 Unreal Engine's Blueprint visual scripting for:
+                                 UI
+                                 events
+                                 some gameplay logic
+                                 Shader programming for:
+                                 realistic car paint
+                                 reflections
+                                 lighting
+                                 weather effects"""
+    },
+    "Mortal Kombat MK 1": {
+        "Game_name"         : "Mortal Kombat MK 1",
+        "Engine"            : "Unreal Engine 5",
+        "Release_year"      : 2023,
+        "Company"           : "NetherRealm Studios",
+        "Major Source Code" : """Core Languages
+                                C++ → combat systems, physics, networking, rendering
+                                Unreal Engine scripting/tools
+                                Shader programming for:
+                                gore effects
+                                lighting
+                                particle systems
+                                cinematic visuals
+                                Gameplay Systems
+
+                                The code handles:
+
+                                combo detection
+                                hitboxes
+                                frame timing
+                                animation blending
+                                online rollback netcode
+                                Major Technical Systems
+                                Fighting Game Logic
+
+                                Fighting games rely heavily on frame-perfect calculations.
+
+                                Things like:
+
+                                attack startup
+                                recovery frames
+                                collision detection
+                                combo windows
+
+                                are calculated every frame.
+
+                                Physics & Combat Math
+
+                                Movement and attacks use physics principles like:
+                                p=mv
+                                for:
+                                knockback
+                                impact force
+                                ragdoll effects
+                                environmental interactions
+                                Graphics & Gore System
+
+                                One of Mortal Kombat's signature technologies is:
+
+                                detailed damage rendering
+                                blood simulation
+                                high-detail fatalities
+                                cinematic camera transitions"""
+    }
+}
+with open("GameRating.txt", "w", encoding="utf-8") as file:
+    file.write("The below list provides the top games I would rank with their engines used for their development—the best even in 2026\n")
+    file.write("This program is designed specifically for game developers and enthusiasts who want to know about the best game engines available in 2026 and the top games developed using those engines.\n\n")
+    
+    for game, details in Gamedata.items():
+        if isinstance(details['Game_name'], list):
+            game_names = ', '.join(details['Game_name'])
+        else:
+            game_names = details['Game_name']
+        
+        file.write(f"Game: {game_names}\n")
+        file.write(f"Engine: {details['Engine']}\n")
+        file.write(f"Release Year: {details['Release_year']}\n")
+        file.write(f"Company: {details['Company']}\n")
+        file.write("Major Source Code/Tech Details:\n")
+        tech_details = details["Major Source Code"].strip()
+        file.write(tech_details + "\n")
+        file.write("-" * 50 + "\n\n")
+
+
+
+
+
+
+
+
+
+
